@@ -21,6 +21,7 @@ function App() {
       <div>
       {num}
       </div>
+      
     </div>
   );
 }
