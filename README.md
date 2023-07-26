@@ -1,2 +1,8 @@
-use of CRUD in React<br>
-making a sample project of NOTE TAKING APP
+# Use of Props
+# components
+# JSX
+<div>
+Destructing of props:
+..
+const { name, age } = this.props;
+</div>
