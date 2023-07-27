@@ -9,7 +9,7 @@ const Memo = () => {
       <h1>{count}</h1>
       <button onClick={()=>setCount(count + 1)}>Increment</button>
       <input onChange={(e)=>setInput(e.target.value)}></input>
-      <p>{input}</p>
+      <p>Input: {input}</p>
       <br/>
       <hr/>
       This is a memo component. It will not re-render unless the props change or state changes

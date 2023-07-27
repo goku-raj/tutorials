@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { memo } from 'react'
 
 const NewComp = (props) => {
     console.log(`render count`, props.newCount)
@@ -9,4 +9,4 @@ const NewComp = (props) => {
   )
 }
 
-export default React.memo(NewComp)
+export default memo(NewComp)

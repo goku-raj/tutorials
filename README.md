@@ -3,3 +3,9 @@ memo means rendering the one component with respect to its parent component ever
 Thus useMemo comes in defination
 <br>
 while exporting the component use: export default React.memo(componentName)
+
+# useMemo
+Takes a function and then array of dependencies;
+
+# useMemo vs useEffect
+useMemo gives the value in return but not useEffect;
