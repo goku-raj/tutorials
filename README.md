@@ -1,15 +1,5 @@
-### useEffect
-
-useEffect(()=>{<br>
-// code to run after render or update<br>
+# Memo 
+memo means rendering the one component with respect to its parent component everytime we render its parents and thus causes a lot of time taking while rendering the component .. 
+Thus useMemo comes in defination
 <br>
-<br>
-    return (()=>{ <br>
-        //piece of code <br>
-    })<br>
-}, [dependency]);
-<br>
-the return statement is known as cleanup and avoid extra garbage memory and thus it will run FIRST & then the previously code will execute.
-<br>
-
-## Fetch using useEffect
+while exporting the component use: export default React.memo(componentName)
