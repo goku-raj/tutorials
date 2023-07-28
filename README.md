@@ -9,3 +9,6 @@ Takes a function and then array of dependencies;
 
 # useMemo vs useEffect
 useMemo gives the value in return but not useEffect;
+
+# useCallback
+Returns a function 
