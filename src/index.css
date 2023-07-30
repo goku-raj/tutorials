@@ -1,0 +1,42 @@
+#root{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+.header{
+    background: rgb(115, 115, 208);
+    padding: 10px;
+}
+.input{
+    display: flex;
+    margin: 20px;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+}
+.inputField{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    padding: 0px 9px 0px 9px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.inputField button{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 5px;
+    border: 0;
+    outline: 0;
+    background: rgb(226, 85, 85);
+}

@@ -1,14 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import MultipleReturn from './MultipleReturn';
-import Memo from './Memo';
-import UseMemo from './UseMemo';
-import UseCallback from './UseCallback';
+import './index.css'
+import Header from './Header';
+import Input from './component/Input';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-  <UseCallback/>
+  <Header/>
+  <Input />
   </React.StrictMode>
 );
 
