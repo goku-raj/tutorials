@@ -12,11 +12,7 @@ const Input = () => {
         setName('');
         setEmail('');
     }
-    function remove(index){
-        let arr = data;
-        arr.splice(index, 1);
-        setData([...arr])
-    }
+    
 
     return (
         <>
@@ -39,11 +35,7 @@ const Input = () => {
                 {
                     data.map((element, index) => {
                         return (
-                            <div key={index} className='inputField'>
-                                <h2>{element.name}</h2>
-                                <h2>{element.email}</h2>
-                                <button onClick={()=> remove(index)}>-</button>
-                            </div>
+                            <Field name={element.name} email={element.email} key={index} data={data} setData={setData}/>
                     )})
                 }
             </div>
